@@ -1,8 +1,9 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import testimonial from '../../assets/about/worker.avif';
+import { usedata } from '../../context/Context';
 
 const Companyvalue = () => {
+  const {name,image}=usedata();
     const containerVariants = {
     hidden: { opacity: 0, y: 20 },
     visible: {
@@ -152,7 +153,7 @@ const Companyvalue = () => {
                 className="font-semibold text-gray-800 text-sm"
                 variants={rightTextVariants}
               >
-                Valeria Thomas
+                {name}
               </motion.p>
              
             </div>
@@ -161,7 +162,7 @@ const Companyvalue = () => {
               variants={imageVariants}
             >
               <img
-                src={testimonial}
+                src={image}
                 alt="Valeria Thomas"
                 className="w-full h-full object-cover"
               />

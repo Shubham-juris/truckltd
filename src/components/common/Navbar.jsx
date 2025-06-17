@@ -8,12 +8,13 @@ const Navbar = () => {
   const toggleMenu = () => setIsOpen(!isOpen);
 
   return (
-    <nav className="bg-white shadow-md max-w-7xl mx-auto px-4 sticky top-0 z-50">
-      <div className="max-w-7xl mx-auto  flex items-center justify-between">
+    <nav className="bg-white shadow-md w-full sticky top-0 z-50"> {/* full width here */}
+      <div className="max-w-7xl mx-auto px-4 flex items-center justify-between h-16">
         <Link to="/" className="flex items-center space-x-2">
           <img src={logo} alt="Logo" className="h-14 w-auto" />
         </Link>
 
+        {/* Desktop Links */}
         <div className="hidden md:flex space-x-8 items-center">
           <Link to="/" className="text-red-500 font-semibold hover:underline">HOME</Link>
           <Link to="/about" className="text-black font-medium hover:text-cyan-500">COMPANY</Link>
@@ -26,6 +27,7 @@ const Navbar = () => {
           </Link>
         </div>
 
+        {/* Mobile Menu Toggle */}
         <div className="md:hidden">
           <button onClick={toggleMenu} className="text-black focus:outline-none">
             {isOpen ? <FiX size={28} /> : <FiMenu size={28} />}
@@ -33,6 +35,7 @@ const Navbar = () => {
         </div>
       </div>
 
+      {/* Mobile Menu Links */}
       {isOpen && (
         <div className="md:hidden px-4 pb-4 flex flex-col space-y-4 bg-white shadow-inner">
           <Link to="/" onClick={toggleMenu} className="text-cyan-500 font-semibold hover:underline">HOME</Link>

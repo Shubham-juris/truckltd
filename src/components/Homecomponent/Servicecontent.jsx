@@ -33,7 +33,7 @@ const Servicecontent = () => {
 ];
   return (
     <>
-     <section className="bg-[#15181d] text-white py-20 px-4">
+     <section className="bg-black                                            text-white py-20 px-4">
       <div className="max-w-6xl mx-auto text-center">
         <div className="mb-14">
           <h2 className="text-3xl md:text-4xl font-bold">Our Services</h2>

@@ -6,7 +6,6 @@ const ContactUs = () => {
     <>
       <section className="bg-white py-10 sm:py-16" id="contact">
         <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-12">
-          {/* Left Form */}
           <div>
             <h3 className="text-sm text-red-600 font-semibold uppercase mb-1">
               Contact
@@ -53,7 +52,6 @@ const ContactUs = () => {
                 placeholder="Type the below word"
                 className="border border-gray-300 p-3 rounded w-full"
               />
-              <p className="italic text-sm">catch</p>
               <button
                 type="submit"
                 className="bg-red-500 hover:bg-red-600 text-white font-semibold px-6 py-3 rounded shadow"
@@ -63,9 +61,7 @@ const ContactUs = () => {
             </form>
           </div>
 
-          {/* Right Info */}
           <div className="relative rounded-lg shadow-lg overflow-hidden">
-            {/* Background Image */}
             <div
               className="absolute inset-0 bg-cover bg-center"
               style={{
@@ -73,10 +69,8 @@ const ContactUs = () => {
               }}
             >
               <div className="absolute inset-0 bg-black opacity-60"></div>{" "}
-              {/* Black overlay */}
             </div>
 
-            {/* Content */}
             <div className="relative z-10 text-white p-8">
               <h3 className="text-2xl font-semibold mb-2">
                  contact detail
