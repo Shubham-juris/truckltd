@@ -2,6 +2,7 @@ import React from "react";
 import img from "../../assets/Home/truck2.jpg";
 
 const ContactUs = () => {
+ 
   return (
     <>
       <section className="bg-white py-10 sm:py-16" id="contact">
@@ -109,6 +110,7 @@ const ContactUs = () => {
           </div>
         </div>
       </section>
+
     </>
   );
 };
