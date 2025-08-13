@@ -3,8 +3,9 @@ import { motion } from 'framer-motion';
 import { usedata } from '../../context/Context';
 
 const Companyvalue = () => {
-  const {name,image}=usedata();
-    const containerVariants = {
+  const { name, image } = usedata();
+  
+  const containerVariants = {
     hidden: { opacity: 0, y: 20 },
     visible: {
       opacity: 1,
@@ -76,23 +77,7 @@ const Companyvalue = () => {
     },
   };
 
-  const dotVariants = {
-    hidden: { opacity: 0, scale: 0.7 },
-    visible: {
-      opacity: 1,
-      scale: 1,
-      transition: { duration: 0.3, staggerChildren: 0.2, delay: 1.2, ease: 'easeOut' },
-    },
-  };
-
-  const dotItemVariants = {
-    hidden: { opacity: 0, scale: 0.7 },
-    visible: { opacity: 1, scale: 1 },
-  };
-
   return (
-    <>
-       
     <motion.div
       className="bg-white py-10 sm:py-12 md:py-16"
       variants={containerVariants}
@@ -100,6 +85,7 @@ const Companyvalue = () => {
       animate="visible"
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-start">
+        
         {/* Left Side */}
         <div>
           <motion.h2
@@ -108,17 +94,17 @@ const Companyvalue = () => {
           >
             OUR CORE VALUES
           </motion.h2>
-          <motion.div className="bg-[#34ccff] h-1 w-10 mb-5" variants={lineVariants}></motion.div>
+          <motion.div className="bg-red-600 h-1 w-10 mb-5" variants={lineVariants}></motion.div>
 
           <motion.div className="flex flex-wrap gap-2 mb-6" variants={buttonVariants}>
-            {['Safety', 'Trust', 'Innovation', 'Excellence'].map((label, index) => (
+            {[].map((label) => (
               <motion.button
                 key={label}
                 className={`${
                   label === 'Excellence'
-                    ? 'bg-[#34ccff] text-white'
+                    ? 'bg-red-600 text-white'
                     : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
-                } font-medium py-2 px-4 rounded-full text-sm focus:outline-none focus:ring-2 focus:ring-[#34ccff]`}
+                } font-medium py-2 px-4 rounded-full text-sm focus:outline-none focus:ring-2 focus:ring-red-600`}
                 variants={buttonItemVariants}
               >
                 {label}
@@ -130,9 +116,10 @@ const Companyvalue = () => {
             className="text-gray-700 text-sm sm:text-base leading-relaxed"
             variants={leftTextVariants}
           >
-            At Kargon Logistics, we believe that strong values create a strong foundation.
-            Our commitment to safety, trust, and forward-thinking solutions ensures that we deliver exceptional results — every time.
-            Whether it's across the city or across borders, our services are backed by integrity and reliability.
+            At <span className='text-red-600 font-semibold'>Logistiq Xpress</span>, we believe that our values are the driving force
+            behind our success. Safety, reliability, and cutting-edge solutions are at the heart 
+            of everything we do. Whether delivering across the city or internationally, 
+            we operate with integrity, speed, and precision.
           </motion.p>
         </div>
 
@@ -142,37 +129,16 @@ const Companyvalue = () => {
             className="text-gray-700 text-sm sm:text-base mb-6 leading-relaxed"
             variants={rightTextVariants}
           >
-            We aim to revolutionize the logistics industry by blending modern technology with personalized customer service.
-            With years of experience and a dedicated team, we guarantee smooth, timely, and transparent deliveries.
-            Your cargo is our priority — we deliver with precision and care.
+            Our mission is to set new standards in logistics by combining advanced technology 
+            with personalized customer care. With an experienced team and a commitment to 
+            excellence, we ensure your shipments arrive safely, on time, and with complete transparency.
           </motion.p>
 
-          <div className="flex items-center justify-start sm:justify-end">
-            <div className="text-left">
-              <motion.p
-                className="font-semibold text-gray-800 text-sm"
-                variants={rightTextVariants}
-              >
-                {name}
-              </motion.p>
-             
-            </div>
-            <motion.div
-              className="ml-4 w-14 h-14 sm:w-16 sm:h-16 rounded-full overflow-hidden"
-              variants={imageVariants}
-            >
-              <img
-                src={image}
-                alt="Valeria Thomas"
-                className="w-full h-full object-cover"
-              />
-            </motion.div>
-          </div>
+         
         </div>
       </div>
     </motion.div>
-    </>
-  )
-}
+  );
+};
 
-export default Companyvalue
+export default Companyvalue;
