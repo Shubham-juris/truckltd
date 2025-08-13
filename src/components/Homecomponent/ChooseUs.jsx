@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../../assets/Home/choose.webp";
+import img from "../../assets/Home/truck1.avif";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
