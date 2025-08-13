@@ -6,7 +6,7 @@ const Map = () => {
       <iframe
         title="Location Map"
         className="w-full h-full border-0"
-        src="https://www.google.com/maps?q=45+Right+Avenue,+Red+Deer,+AB+T4N7E5,+Canada&output=embed"
+        src="https://www.google.com/maps?q=8500+84+Street+SE,+Calgary,+AB&output=embed"
         allowFullScreen
         loading="lazy"
         referrerPolicy="no-referrer-when-downgrade"

@@ -1,13 +1,39 @@
 import React from "react";
+import { motion } from "framer-motion";
 import workerImg from "../../assets/about/worker.avif";
 
 const AboutSection = () => {
+  const containerVariants = {
+    hidden: { opacity: 0, y: 30 },
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: { duration: 0.6, ease: "easeOut", staggerChildren: 0.3 },
+    },
+  };
+
+  const textVariants = {
+    hidden: { opacity: 0, x: -30 },
+    visible: { opacity: 1, x: 0, transition: { duration: 0.6, ease: "easeOut" } },
+  };
+
+  const imageVariants = {
+    hidden: { opacity: 0, x: 30 },
+    visible: { opacity: 1, x: 0, transition: { duration: 0.6, ease: "easeOut" } },
+  };
+
   return (
-    <div className="bg-white py-16 px-4 md:px-12">
+    <motion.div
+      className="bg-white py-16 px-4 md:px-12"
+      variants={containerVariants}
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ once: true, amount: 0.2 }}
+    >
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 items-center gap-10">
         
         {/* Left Text Section */}
-        <div>
+        <motion.div variants={textVariants}>
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             Delivering Excellence in Transportation & Logistics
           </h2>
@@ -18,33 +44,34 @@ const AboutSection = () => {
           </p>
 
           <div className="space-y-4">
-            <div>
+            <motion.div variants={textVariants}>
               <h4 className="font-semibold text-lg text-gray-800">🌍 Worldwide Service</h4>
               <p className="text-sm text-gray-600">
                 Seamless global delivery solutions with advanced tracking and guaranteed timelines.
               </p>
-            </div>
-            <div>
+            </motion.div>
+            <motion.div variants={textVariants}>
               <h4 className="font-semibold text-lg text-gray-800">🚛 Local Service</h4>
               <p className="text-sm text-gray-600">
                 Fast, secure, and cost-effective deliveries within your city and across the country.
               </p>
-            </div>
+            </motion.div>
           </div>
-
-        
-        </div>
+        </motion.div>
 
         {/* Right Image */}
-        <div className="flex justify-center">
+        <motion.div
+          className="flex justify-center"
+          variants={imageVariants}
+        >
           <img
             src={workerImg}
             alt="Logistics Worker"
             className="rounded shadow-lg max-w-full h-auto"
           />
-        </div>
+        </motion.div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

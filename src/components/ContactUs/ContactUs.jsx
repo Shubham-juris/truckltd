@@ -89,21 +89,21 @@ const ContactUs = () => {
               <div>
                 <h4 className="font-semibold">Phone Number</h4>
                 <a
-                  href="tel:+158778398746"
+                  href="tel:+18887555706"
                   className="text-sm hover:underline"
                 >
-                  +1 587-783-98746
+                  +1 888-755-5706
                 </a>
               </div>
               <div>
                 <h4 className="font-semibold">Location</h4>
                 <a
-                  href="https://www.google.com/maps/search/?api=1&query=45+Right+Avenue,+Red+Deer,+AB+T4N7E5,+Canada"
+                  href="https://www.google.com/maps/search/?api=1&query=8500-84+Street+SE,+Calgary,+AB,+Canada"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-sm hover:underline"
                 >
-                  45 Right Avenue, Red Deer, AB T4N7E5, Canada
+                  8500-84 Street SE, Calgary, AB, Canada
                 </a>
               </div>
 
