@@ -24,7 +24,7 @@ const AboutSection = () => {
 
   return (
     <motion.div
-      className="bg-white py-16 px-4 md:px-12"
+      className="bg-black py-16 px-4 md:px-12"
       variants={containerVariants}
       initial="hidden"
       whileInView="visible"
@@ -34,25 +34,25 @@ const AboutSection = () => {
         
         {/* Left Text Section */}
         <motion.div variants={textVariants}>
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white">
             Delivering Excellence in Transportation & Logistics
           </h2>
-          <p className="text-gray-600 mb-6">
-            At <span className="font-semibold text-red-600">Logistiq Xpress</span>, 
+          <p className="text-gray-300 mb-6">
+            At <span className="font-semibold text-red-500">Logistiq Xpress</span>, 
             we connect communities and businesses through reliable, fast, 
             and secure logistics solutions — locally and worldwide.
           </p>
 
           <div className="space-y-4">
             <motion.div variants={textVariants}>
-              <h4 className="font-semibold text-lg text-gray-800">🌍 Worldwide Service</h4>
-              <p className="text-sm text-gray-600">
+              <h4 className="font-semibold text-lg text-red-500">🌍 Worldwide Service</h4>
+              <p className="text-sm text-gray-300">
                 Seamless global delivery solutions with advanced tracking and guaranteed timelines.
               </p>
             </motion.div>
             <motion.div variants={textVariants}>
-              <h4 className="font-semibold text-lg text-gray-800">🚛 Local Service</h4>
-              <p className="text-sm text-gray-600">
+              <h4 className="font-semibold text-lg text-red-500">🚛 Local Service</h4>
+              <p className="text-sm text-gray-300">
                 Fast, secure, and cost-effective deliveries within your city and across the country.
               </p>
             </motion.div>

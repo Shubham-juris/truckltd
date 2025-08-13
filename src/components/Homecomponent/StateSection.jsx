@@ -33,17 +33,17 @@ export default function StatsSection() {
   }, []);
 
   return (
-    <div ref={sectionRef} className="bg-black py-16 text-white">
+    <div ref={sectionRef} className="bg-white py-16 text-gray-900">
       <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 text-center px-4">
         {stats.map((item, idx) => (
           <div key={idx} className="flex flex-col items-center">
-            <div className="text-3xl p-4 rounded shadow-lg mb-4">
+            <div className="text-3xl p-4 rounded shadow-lg mb-4 bg-gray-100">
               {item.icon}
             </div>
-            <h3 className="text-2xl text-white font-bold">
+            <h3 className="text-2xl font-bold">
               {startCount ? <CountUp end={item.value} /> : "0"}
             </h3>
-            <p className="text-sm text-white mt-1">{item.label}</p>
+            <p className="text-sm mt-1">{item.label}</p>
           </div>
         ))}
       </div>

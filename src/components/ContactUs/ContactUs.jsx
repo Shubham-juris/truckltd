@@ -3,14 +3,14 @@ import img from "../../assets/Home/truck2.jpg";
 
 const ContactUs = () => {
   return (
-    <section className="bg-white py-10 sm:py-16" id="contact">
+    <section className="bg-black py-10 sm:py-16" id="contact">
       <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-12">
         {/* Left Form Section */}
         <div>
-          <h3 className="text-sm text-red-600 font-semibold uppercase mb-1">
+          <h3 className="text-sm text-red-500 font-semibold uppercase mb-1">
             Contact
           </h3>
-          <h2 className="text-3xl font-bold text-gray-900 mb-6">
+          <h2 className="text-3xl font-bold text-white mb-6">
             Get in touch
           </h2>
 
@@ -19,13 +19,13 @@ const ContactUs = () => {
               <input
                 type="text"
                 placeholder="Your name here"
-                className="border border-gray-300 p-3 rounded w-full"
+                className="border border-gray-600 p-3 rounded w-full bg-transparent text-white placeholder-gray-400"
                 required
               />
               <input
                 type="email"
                 placeholder="Your email here"
-                className="border border-gray-300 p-3 rounded w-full"
+                className="border border-gray-600 p-3 rounded w-full bg-transparent text-white placeholder-gray-400"
                 required
               />
             </div>
@@ -33,24 +33,24 @@ const ContactUs = () => {
               <input
                 type="text"
                 placeholder="Your subject here"
-                className="border border-gray-300 p-3 rounded w-full"
+                className="border border-gray-600 p-3 rounded w-full bg-transparent text-white placeholder-gray-400"
                 required
               />
               <input
                 type="tel"
                 placeholder="Your phone here"
-                className="border border-gray-300 p-3 rounded w-full"
+                className="border border-gray-600 p-3 rounded w-full bg-transparent text-white placeholder-gray-400"
               />
             </div>
             <textarea
               placeholder="Tell us a few words"
-              className="border border-gray-300 p-3 rounded w-full h-28 resize-none"
+              className="border border-gray-600 p-3 rounded w-full h-28 resize-none bg-transparent text-white placeholder-gray-400"
               required
             ></textarea>
             <input
               type="text"
               placeholder="Type the below word"
-              className="border border-gray-300 p-3 rounded w-full"
+              className="border border-gray-600 p-3 rounded w-full bg-transparent text-white placeholder-gray-400"
             />
             <button
               type="submit"
@@ -69,7 +69,7 @@ const ContactUs = () => {
               backgroundImage: `url(${img})`,
             }}
           >
-            <div className="absolute inset-0 bg-black opacity-60"></div>
+            <div className="absolute inset-0 bg-black opacity-70"></div>
           </div>
 
           <div className="relative z-10 text-white p-8">
@@ -108,7 +108,10 @@ const ContactUs = () => {
               </div>
 
               <div className="flex space-x-4 pt-4">
-                <a href="#" className="text-white hover:text-gray-300">
+                <a
+                  href="https://www.facebook.com/profile.php?id=61579332661327"
+                  className="text-white hover:text-gray-300"
+                >
                   <i className="fab fa-facebook-f"></i>
                 </a>
                 <a href="#" className="text-white hover:text-gray-300">

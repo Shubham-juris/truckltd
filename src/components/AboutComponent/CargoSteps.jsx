@@ -4,24 +4,27 @@ import { motion } from "framer-motion";
 const steps = [
   {
     label: "Step 01",
-    title: "Order Processing",
-    description: "The logistics process begins with the receipt of customer...",
+    title: "Order Placement",
+    description:
+      "Customers book their shipments online or through our support team, providing all required delivery details.",
   },
   {
     label: "Step 02",
-    title: "Warehousing",
+    title: "Secure Warehousing",
     description:
-      "Goods that are ready for shipment are stored in warehouses or...",
+      "Goods are safely stored in our secure warehouses, ready for sorting and timely dispatch.",
   },
   {
     label: "Step 03",
-    title: "Order Tracking",
-    description: "Real-time tracking systems are used to monitor the...",
+    title: "Real-Time Tracking",
+    description:
+      "Our advanced tracking system keeps customers updated on their shipment’s exact location and status.",
   },
   {
     label: "Step 04",
-    title: "Product Delivery",
-    description: "In the final stage of logistics services.",
+    title: "On-Time Delivery",
+    description:
+      "We ensure your cargo reaches its destination safely and on schedule, anywhere in the world.",
   },
 ];
 
@@ -42,7 +45,7 @@ const CargoSteps = () => {
 
   return (
     <motion.div
-      className="bg-gray-100 py-20 px-4"
+      className="bg-white py-20 px-4"
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true, amount: 0.2 }}
@@ -59,7 +62,7 @@ const CargoSteps = () => {
           className="text-3xl md:text-4xl font-bold text-gray-800"
           variants={stepVariants}
         >
-          Easy steps to receive your cargo
+          Easy Steps to Ship with <span className="text-red-600 font-bold">Logistiq Xpress</span>
         </motion.h2>
       </div>
 
@@ -70,7 +73,7 @@ const CargoSteps = () => {
             className="relative text-center pt-16"
             variants={stepVariants}
           >
-            <p className="text-sm font-medium text-gray-600 mb-1">
+            <p className="text-sm font-medium text-gray-500 mb-1">
               {step.label}
             </p>
 

@@ -51,7 +51,7 @@ const Companyvalue = () => {
 
   return (
     <motion.div
-      className="bg-white py-14 sm:py-16 md:py-20"
+      className="bg-black py-14 sm:py-16 md:py-20"
       variants={containerVariants}
       initial="hidden"
       whileInView="visible"
@@ -62,7 +62,7 @@ const Companyvalue = () => {
         {/* Left Side */}
         <div>
           <motion.h2
-            className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4"
+            className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-4"
             variants={headingVariants}
           >
             OUR CORE VALUES
@@ -73,7 +73,7 @@ const Companyvalue = () => {
           ></motion.div>
 
           <motion.p
-            className="text-gray-700 text-base sm:text-lg md:text-xl leading-relaxed"
+            className="text-gray-300 text-base sm:text-lg md:text-xl leading-relaxed"
             variants={leftTextVariants}
           >
             At <span className="text-red-600 font-semibold">Logistiq Xpress</span>, we believe that our values are the driving force
@@ -86,7 +86,7 @@ const Companyvalue = () => {
         {/* Right Side */}
         <div>
           <motion.p
-            className="text-gray-700 text-base sm:text-lg md:text-xl leading-relaxed"
+            className="text-gray-300 text-base sm:text-lg md:text-xl leading-relaxed"
             variants={rightTextVariants}
           >
             Our mission is to set new standards in logistics by combining advanced technology 

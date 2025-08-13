@@ -11,8 +11,8 @@ const Homepage = () => {
       <HomeSection />
       <Servicecontent />
       <ChooseUs />
-      <Companyvalue />
       <StatsSection />
+      <Companyvalue />
     </>
   );
 };

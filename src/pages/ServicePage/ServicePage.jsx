@@ -1,8 +1,8 @@
 import React from 'react'
 import Services from '../../components/Servicecomponent/Services'
 import ServiceHero from '../../components/Servicecomponent/ServiceHero'
-import StatsSection from '../../components/Homecomponent/StateSection'
 import Servicecontent from '../../components/Homecomponent/Servicecontent'
+import WarehousingDetails from '../../components/Servicecomponent/WarehousingDetails'
 
 const ServicePage = () => {
   return (
@@ -10,7 +10,7 @@ const ServicePage = () => {
     <ServiceHero/>
     <Servicecontent />
      <Services/> 
-     <StatsSection/>
+     <WarehousingDetails/>
     </>
   )
 }
