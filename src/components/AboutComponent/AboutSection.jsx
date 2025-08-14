@@ -3,15 +3,6 @@ import { motion } from "framer-motion";
 import workerImg from "../../assets/about/worker.avif";
 
 const AboutSection = () => {
-  const containerVariants = {
-    hidden: { opacity: 0, y: 30 },
-    visible: {
-      opacity: 1,
-      y: 0,
-      transition: { duration: 0.6, ease: "easeOut", staggerChildren: 0.3 },
-    },
-  };
-
   const textVariants = {
     hidden: { opacity: 0, x: -30 },
     visible: { opacity: 1, x: 0, transition: { duration: 0.6, ease: "easeOut" } },
@@ -23,17 +14,16 @@ const AboutSection = () => {
   };
 
   return (
-    <motion.div
-      className="bg-black py-16 px-4 md:px-12"
-      variants={containerVariants}
-      initial="hidden"
-      whileInView="visible"
-      viewport={{ once: true, amount: 0.2 }}
-    >
+    <div className="bg-black py-16 px-4 md:px-12">
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 items-center gap-10">
-        
+
         {/* Left Text Section */}
-        <motion.div variants={textVariants}>
+        <motion.div
+          variants={textVariants}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.2 }}
+        >
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white">
             Delivering Excellence in Transportation & Logistics
           </h2>
@@ -63,6 +53,9 @@ const AboutSection = () => {
         <motion.div
           className="flex justify-center"
           variants={imageVariants}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.2 }}
         >
           <img
             src={workerImg}
@@ -71,7 +64,7 @@ const AboutSection = () => {
           />
         </motion.div>
       </div>
-    </motion.div>
+    </div>
   );
 };
 
