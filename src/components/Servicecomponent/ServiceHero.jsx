@@ -1,5 +1,5 @@
 import React from "react";
-import heroTruck from "../../assets/home/truck3.jpeg"; 
+import heroTruck from "../../assets/Home/truck3.jpeg"; 
 import truckPark from "../../assets/service/img1.jpeg"; 
 import truckWheel from "../../assets/service/img2.jpeg";
 
