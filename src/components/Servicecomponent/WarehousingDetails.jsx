@@ -17,19 +17,19 @@ const WarehousingDetails = () => {
 
   const details = [
     {
-      title: "Product Availability – 98%",
+      title: "Product Availability – 99%",
       text: "We maintain near-perfect inventory accuracy with real-time tracking systems, ensuring products are always in stock and supply remains uninterrupted.",
     },
     {
-      title: "Material Handling Equipment – 80%",
+      title: "Material Handling Equipment – 99%",
       text: "Equipped with forklifts, conveyor belts, and pallet movers, our warehouses enable faster loading/unloading and safer operations.",
     },
     {
-      title: "Operational Transparency – 70%",
+      title: "Operational Transparency – 99%",
       text: "Clients have access to shipment tracking, order status, and inventory reports via our integrated dashboards for full visibility.",
     },
     {
-      title: "On-Time Outgoing Shipments – 65%",
+      title: "On-Time Outgoing Shipments – 99%",
       text: "We ensure most orders are dispatched on time, with constant efforts to improve outbound logistics efficiency.",
     }
   ];

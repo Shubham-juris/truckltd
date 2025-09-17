@@ -2,9 +2,9 @@ import React, { useEffect, useState } from "react";
 import truck1 from "../../assets/Home/truck1.avif";
 import truck2 from "../../assets/Home/truck2.jpg";
 import truck3 from "../../assets/Home/truck3.jpeg";
-import truck4 from "../../assets/Home/truck4.webp";
+// import truck4 from "../../assets/Home/truck4.jpeg";
 
-const images = [truck3, truck2, truck1, truck4];
+const images = [truck3, truck2, truck1];
 
 const HomeSection = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
