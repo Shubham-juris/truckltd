@@ -103,7 +103,8 @@ const ContactUs = () => {
   rel="noopener noreferrer"
   className="text-sm hover:underline"
 >
-  Slave Lake, Alberta, Canada
+  Slave Lake, Alberta, Canada<br></br>
+    Calgary,Canada
 </a>
               </div>
 
