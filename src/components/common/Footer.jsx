@@ -112,7 +112,8 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="hover:text-red-500"
             >
-              8500-84 Street SE, Calgary, AB
+              
+             Slave Lake, Alberta
             </a>
           </p>
 
