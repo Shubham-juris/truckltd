@@ -97,14 +97,14 @@ const ContactUs = () => {
               </div>
               <div>
                 <h4 className="font-semibold">Location</h4>
-                <a
-                  href="https://www.google.com/maps/search/?api=1&query=8500-84+Street+SE,+Calgary,+AB,+Canada"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-sm hover:underline"
-                >
-                  8500-84 Street SE, Calgary, AB, Canada
-                </a>
+<a
+  href="https://www.google.com/maps/search/?api=1&query=Slave+Lake,+Alberta,+Canada"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="text-sm hover:underline"
+>
+  Slave Lake, Alberta, Canada
+</a>
               </div>
 
               <div className="flex space-x-4 pt-4">
