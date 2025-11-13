@@ -5,16 +5,18 @@ import AboutPage from "../pages/AboutPage/AboutPage";
 import ContactPage from "../pages/ContactPage/ContactPage";
 import ServicePage from "../pages/ServicePage/ServicePage";
 import ScrollToTop from "../components/toptoscroll/Toptoscroll";
+import Jobs from "../pages/Jobs";
 
 const RoutesPage = () => {
   return (
     <>
-    <ScrollToTop/>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/contact" element={<ContactPage />} />
-        <Route path="/services" element={<ServicePage/>} />
+        <Route path="/services" element={<ServicePage />} />
+        <Route path="/jobs" element={<Jobs />} />
       </Routes>
     </>
   );

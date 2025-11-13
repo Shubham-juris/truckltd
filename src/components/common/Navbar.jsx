@@ -10,21 +10,24 @@ const Navbar = () => {
 
   // Prevent background scroll when mobile menu is open
   useEffect(() => {
-    if (isOpen) {
-      document.body.style.overflow = "hidden";
-    } else {
-      document.body.style.overflow = "";
-    }
+    document.body.style.overflow = isOpen ? "hidden" : "";
   }, [isOpen]);
 
   const linkBase = "font-medium transition";
   const activeLink = "text-red-500 font-semibold underline";
   const inactiveLink = "text-black hover:text-red-500";
 
+  // Updated links with JOBS
+  const links = [
+    { path: "/", label: "HOME" },
+    { path: "/about", label: "COMPANY" },
+    { path: "/jobs", label: "JOBS" },
+    { path: "/services", label: "SERVICES" },
+  ];
+
   return (
     <nav className="bg-white shadow-md w-full sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 flex items-center justify-between h-16">
-        
         {/* Logo */}
         <NavLink to="/" className="flex items-center space-x-2">
           <img src={logo} alt="Logo" className="h-14 w-auto" />
@@ -32,20 +35,17 @@ const Navbar = () => {
 
         {/* Desktop Links */}
         <div className="hidden md:flex space-x-8 items-center">
-          {["/", "/about", "/services"].map((path, index) => {
-            const labels = ["HOME", "COMPANY", "SERVICES"];
-            return (
-              <NavLink
-                key={path}
-                to={path}
-                className={({ isActive }) =>
-                  `${linkBase} ${isActive ? activeLink : inactiveLink}`
-                }
-              >
-                {labels[index]}
-              </NavLink>
-            );
-          })}
+          {links.map(({ path, label }) => (
+            <NavLink
+              key={path}
+              to={path}
+              className={({ isActive }) =>
+                `${linkBase} ${isActive ? activeLink : inactiveLink}`
+              }
+            >
+              {label}
+            </NavLink>
+          ))}
           <NavLink
             to="/contact"
             className={({ isActive }) =>
@@ -62,7 +62,10 @@ const Navbar = () => {
 
         {/* Mobile Menu Toggle */}
         <div className="md:hidden">
-          <button onClick={toggleMenu} className="text-black focus:outline-none">
+          <button
+            onClick={toggleMenu}
+            className="text-black focus:outline-none"
+          >
             {isOpen ? <FiX size={28} /> : <FiMenu size={28} />}
           </button>
         </div>
@@ -79,21 +82,18 @@ const Navbar = () => {
           className="absolute right-0 top-0 h-full w-2/3 bg-white shadow-lg p-6 flex flex-col space-y-6"
           onClick={(e) => e.stopPropagation()} // Prevent closing when clicking inside menu
         >
-          {["/", "/about", "/services"].map((path, index) => {
-            const labels = ["HOME", "COMPANY", "SERVICES"];
-            return (
-              <NavLink
-                key={path}
-                to={path}
-                onClick={toggleMenu}
-                className={({ isActive }) =>
-                  `${linkBase} ${isActive ? activeLink : inactiveLink}`
-                }
-              >
-                {labels[index]}
-              </NavLink>
-            );
-          })}
+          {links.map(({ path, label }) => (
+            <NavLink
+              key={path}
+              to={path}
+              onClick={toggleMenu}
+              className={({ isActive }) =>
+                `${linkBase} ${isActive ? activeLink : inactiveLink}`
+              }
+            >
+              {label}
+            </NavLink>
+          ))}
           <NavLink
             to="/contact"
             onClick={toggleMenu}
