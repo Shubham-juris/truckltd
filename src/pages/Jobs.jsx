@@ -64,6 +64,8 @@ const Jobs = () => {
                   <li>Location: {job.location}</li>
                   <li>Pay: {job.salary || "$37.00 per hour"}</li>
                   <li>Hours: {job.hours || "40 per week"}</li>
+                  {/* 🟢 Added Benefits line */}
+                  {job.benefits && <li>Benefits: {job.benefits}</li>}
                 </ul>
 
                 <h3 className="font-semibold text-lg">Full Job Description</h3>
