@@ -53,7 +53,7 @@ const Jobs = () => {
             >
               {/* LEFT SIDE */}
               <div>
-                <h2 className="text-3xl font-bold text-blue-700 mb-2">
+                <h2 className="text-3xl font-bold text-red-500 mb-2">
                   {job.title || job.job_title || job.position}
                 </h2>
                 <p className="text-gray-600 mb-4">{job.company}</p>
@@ -112,7 +112,7 @@ const Jobs = () => {
                   ></textarea>
                   <button
                     type="submit"
-                    className="bg-blue-600 hover:bg-blue-700 transition text-white py-2 rounded-full text-sm"
+                    className="bg-red-600 hover:bg-red-700 transition text-white py-2 rounded-full text-sm"
                   >
                     SUBMIT APPLICATION
                   </button>
