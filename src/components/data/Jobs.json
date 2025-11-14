@@ -3,7 +3,7 @@
     "id": "1",
     "title": "Dispatcher",
     "company": "Logistiq Xpress",
-    "location": ["Slave Lake, Alberta, Canada", "Calgary, Canada"],
+    "location": "Slave Lake, Alberta, Canada\nCalgary, Canada",
     "type": "Full-time",
     "benefits": "Extended health care",
     "description": "Prior experience as a dispatcher (preferably in towing or transportation) is a plus. As a dispatcher, you will be the first point of contact for customers in..."
@@ -12,7 +12,7 @@
     "id": "2",
     "title": "Central Dispatcher/Customer Service",
     "company": "Logistiq Xpress",
-    "location": ["Slave Lake, Alberta, Canada", "Calgary, Canada"],
+    "location": "Slave Lake, Alberta, Canada\nCalgary, Canada",
     "type": "Full-time",
     "benefits": "Paid time off, Vision care, Dental care, RRSP match, Casual dress, Extended health care",
     "description": "Working directly with customers to book tows and with drivers in all locations, giving call information and clearing."
@@ -21,7 +21,7 @@
     "id": "3",
     "title": "Dispatcher",
     "company": "Logistiq Xpress",
-    "location": ["Slave Lake, Alberta, Canada", "Calgary, Canada"],
+    "location": "Slave Lake, Alberta, Canada\nCalgary, Canada",
     "type": "Full-time",
     "benefits": "",
     "description": "Communicate effectively with drivers, clients, and phone systems to provide updates on shipment status. Provide excellent customer service by addressing inquiries."
@@ -30,7 +30,7 @@
     "id": "4",
     "title": "Dispatcher-NJ",
     "company": "Logistiq Xpress",
-    "location": ["Slave Lake, Alberta, Canada", "Calgary, Canada"],
+    "location": "Slave Lake, Alberta, Canada\nCalgary, Canada",
     "type": "Full-time",
     "benefits": "",
     "description": "Dispatch Associate Service Providers (ASP) and in-house staff to install, service, and repair floor cleaning machines, pressure washers, and balers."
@@ -39,7 +39,7 @@
     "id": "5",
     "title": "Dispatcher",
     "company": "Logistiq Xpress",
-    "location": ["Slave Lake, Alberta, Canada", "Calgary, Canada"],
+    "location": "Slave Lake, Alberta, Canada\nCalgary, Canada",
     "type": "Full-time",
     "benefits": "",
     "description": "Responsible for handling all driver-related communications within assigned and overflow queues. 2+ years of highway dispatch experience required."
@@ -48,7 +48,7 @@
     "id": "6",
     "title": "Truck Dispatcher",
     "company": "Logistiq Xpress",
-    "location": ["Slave Lake, Alberta, Canada", "Calgary, Canada"],
+    "location": "Slave Lake, Alberta, Canada\nCalgary, Canada",
     "type": "Full-time, Permanent",
     "benefits": "Dental care, Extended health care, On-site parking",
     "description": "The ideal candidate will play a crucial role in managing the flow of goods and services within our supply chain."
@@ -57,7 +57,7 @@
     "id": "7",
     "title": "AZ Truck Driver",
     "company": "Logistiq Xpress",
-    "location": ["Slave Lake, Alberta, Canada", "Calgary, Canada"],
+    "location": "Slave Lake, Alberta, Canada\nCalgary, Canada",
     "type": "Full-time",
     "benefits": "",
     "description": "Valid commercial driver's license (AZ) is required. Safely operate a commercial truck to transport freight to designated locations."
@@ -66,7 +66,7 @@
     "id": "8",
     "title": "Class 1 Truck Driver",
     "company": "Logistiq Xpress",
-    "location": ["Slave Lake, Alberta, Canada", "Calgary, Canada"],
+    "location": "Slave Lake, Alberta, Canada\nCalgary, Canada",
     "type": "Full-time",
     "benefits": "",
     "description": "Looking for full-time Class 1 company driver for local and highway work."
@@ -75,7 +75,7 @@
     "id": "9",
     "title": "Quick Route CDL-A Truck Driver Dedicated",
     "company": "Logistiq Xpress",
-    "location": ["Slave Lake, Alberta, Canada", "Calgary, Canada"],
+    "location": "Slave Lake, Alberta, Canada\nCalgary, Canada",
     "type": "Full-time",
     "benefits": "Paid time off, Vision care, Dental care, 401K with company match, Full health benefits including dental, vision, life, etc.",
     "description": "CDL-A Truck Drivers get home weekly. Drive dedicated quick routes with competitive pay and benefits."
@@ -84,7 +84,7 @@
     "id": "10",
     "title": "Class 1 Truck Driver (Long Haul Canada-wide)",
     "company": "Logistiq Xpress",
-    "location": ["Slave Lake, Alberta, Canada", "Calgary, Canada"],
+    "location": "Slave Lake, Alberta, Canada\nCalgary, Canada",
     "type": "Full-time",
     "benefits": "Paid time off, Dental care, Life insurance, Casual dress, Extended health care, On-site parking",
     "description": "Maintain a clean and organized truck interior and exterior. Operate and drive long-haul trucks to transport freight to various destinations."
@@ -93,9 +93,109 @@
     "id": "11",
     "title": "Regional OTR Truck Driver",
     "company": "Logistiq Xpress",
-    "location": ["Slave Lake, Alberta, Canada", "Calgary, Canada"],
+    "location": "Slave Lake, Alberta, Canada\nCalgary, Canada",
     "type": "Full-time",
     "benefits": "Vision care, Dental care, Extended health care",
     "description": "Looking for experienced, professional, and safety-conscious regional OTR truck drivers who can drive at least 10,000 miles monthly."
+  },
+  {
+    "id": "12",
+    "title": "Delivery Driver",
+    "company": "Logistiq Xpress",
+    "location": "Slave Lake, Alberta, Canada\nCalgary, Canada",
+    "type": "Full-time",
+    "benefits": "Dental care, Paid sick leave, Life insurance, Wellness program, Extended health care",
+    "description": "Experience driving delivery van or truck is an asset. Valid driver's license (Class G) in Ontario. Operating equipment and machines, such as cars, trucks and…"
+  },
+  {
+    "id": "13",
+    "title": "Class 1 Truck Driver",
+    "company": "Logistiq Xpress",
+    "location": "Slave Lake, Alberta, Canada\nCalgary, Canada",
+    "type": "Full-time / Part-time",
+    "benefits": "Extended health care",
+    "description": "Looking for a Full or Part Time Long Haul Class 1 Manual Driver with a clean abstract to haul long-distance routes."
+  },
+  {
+    "id": "14",
+    "title": "Truck Driver - G Class",
+    "company": "Logistiq Xpress",
+    "location": "Slave Lake, Alberta, Canada\nCalgary, Canada",
+    "type": "Full-time",
+    "benefits": "Profit sharing",
+    "description": "Valid G driver's license & clean driver's abstract. Minimum 2 years experience driving trucks or similar large vehicles. 10-20 service locations per day."
+  },
+  {
+    "id": "15",
+    "title": "Delivery Driver - Casual",
+    "company": "Logistiq Xpress",
+    "location": "Slave Lake, Alberta, Canada\nCalgary, Canada",
+    "type": "Casual / Part-time",
+    "benefits": "",
+    "description": "Class 5 driver’s license required; driver’s abstract semi-annually. Utilize safe lifting techniques and use hand truck where appropriate."
+  },
+  {
+    "id": "16",
+    "title": "Warehouse / Delivery Driver",
+    "company": "Logistiq Xpress",
+    "location": "Slave Lake, Alberta, Canada\nCalgary, Canada",
+    "type": "Full-time",
+    "benefits": "Tuition reimbursement, Vision care, Dental care, Employee assistance program, Disability insurance, RRSP match",
+    "description": "Minimum of 1 year of verifiable truck delivery experience. Frequent bending, stooping, pushing, pulling and lifting up to 50 lbs."
+  },
+  {
+    "id": "17",
+    "title": "Logistics And Supply Chain Specialist",
+    "company": "Logistiq Xpress",
+    "location": "Slave Lake, Alberta, Canada\nCalgary, Canada",
+    "type": "Full-time",
+    "benefits": "",
+    "description": "Provide logistics support to the team. Experience in North American supply chain or consumer packaged goods preferred."
+  },
+  {
+    "id": "18",
+    "title": "Materials and Logistics Coordinator",
+    "company": "Logistiq Xpress",
+    "location": "Slave Lake, Alberta, Canada\nCalgary, Canada",
+    "type": "Full-time",
+    "benefits": "",
+    "description": "Ensure compliance with customs documentation and trade regulations. Maintain current knowledge of tariff schedules and policies."
+  },
+  {
+    "id": "19",
+    "title": "Logistics Coordinator",
+    "company": "Logistiq Xpress",
+    "location": "Slave Lake, Alberta, Canada\nCalgary, Canada",
+    "type": "Full-time / Remote",
+    "benefits": "",
+    "description": "Previous experience in ocean logistics or international trade preferred. Assist in selecting cost-effective logistics routes."
+  },
+  {
+    "id": "20",
+    "title": "Supply Chain Coordinator",
+    "company": "Logistiq Xpress",
+    "location": "Slave Lake, Alberta, Canada\nCalgary, Canada",
+    "type": "Full-time",
+    "benefits": "",
+    "description": "Assist with forecasting and demand planning. 2+ years experience in supply chain, procurement, or inventory roles."
+  },
+  {
+    "id": "21",
+    "title": "Supply Chain Analyst",
+    "company": "Logistiq Xpress",
+    "location": "Slave Lake, Alberta, Canada\nCalgary, Canada",
+    "type": "Full-time",
+    "benefits": "Employee assistance program",
+    "description": "Understanding of medical device supply chain preferred. Align demand with supply and create purchase orders effectively."
+  },
+  {
+    "id": "22",
+    "title": "SAP Extended Warehouse Management (EWM) Consultant",
+    "company": "Logistiq Xpress",
+    "location": "Slave Lake, Alberta, Canada\nCalgary, Canada",
+    "type": "Full-time",
+    "benefits": "",
+    "description": "Drive modernization and standardization of logistics processes using SAP EWM. Design solutions across warehouse and supply chain operations."
   }
 ]
+
