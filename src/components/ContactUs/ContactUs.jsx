@@ -10,9 +10,7 @@ const ContactUs = () => {
           <h3 className="text-sm text-red-500 font-semibold uppercase mb-1">
             Contact
           </h3>
-          <h2 className="text-3xl font-bold text-white mb-6">
-            Get in touch
-          </h2>
+          <h2 className="text-3xl font-bold text-white mb-6">Get in touch</h2>
 
           <form className="space-y-4">
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -88,24 +86,20 @@ const ContactUs = () => {
               </div>
               <div>
                 <h4 className="font-semibold">Phone Number</h4>
-                <a
-                  href="tel:+18887555706"
-                  className="text-sm hover:underline"
-                >
+                <a href="tel:+18887555706" className="text-sm hover:underline">
                   +1 888-755-5706
                 </a>
               </div>
               <div>
                 <h4 className="font-semibold">Location</h4>
-<a
-  href="https://www.google.com/maps/search/?api=1&query=Slave+Lake,+Alberta,+Canada"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="text-sm hover:underline"
->
-  Slave Lake, Alberta, Canada<br></br>
-    Calgary,Canada
-</a>
+                <a
+                  href="https://www.google.com/maps/search/?api=1&query=Slave+Lake,+Alberta,+Canada"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm hover:underline"
+                >
+                  Slave Lake,Canada<br></br>
+                </a>
               </div>
 
               <div className="flex space-x-4 pt-4">
