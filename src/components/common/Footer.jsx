@@ -113,8 +113,8 @@ const Footer = () => {
               className="hover:text-red-500"
             >
               
-             Slave Lake, Alberta,Canada <br></br>
-              Calagry,Canada
+             Slave Lake ,Canada <br></br>
+              
             </a>
           </p>
 
