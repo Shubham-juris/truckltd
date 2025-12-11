@@ -5,6 +5,7 @@ const ContactUs = () => {
   return (
     <section className="bg-black py-10 sm:py-16" id="contact">
       <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-12">
+
         {/* Left Form Section */}
         <div>
           <h3 className="text-sm text-red-500 font-semibold uppercase mb-1">
@@ -27,6 +28,7 @@ const ContactUs = () => {
                 required
               />
             </div>
+
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <input
                 type="text"
@@ -40,16 +42,19 @@ const ContactUs = () => {
                 className="border border-gray-600 p-3 rounded w-full bg-transparent text-white placeholder-gray-400"
               />
             </div>
+
             <textarea
               placeholder="Tell us a few words"
               className="border border-gray-600 p-3 rounded w-full h-28 resize-none bg-transparent text-white placeholder-gray-400"
               required
             ></textarea>
+
             <input
               type="text"
               placeholder="Type the below word"
               className="border border-gray-600 p-3 rounded w-full bg-transparent text-white placeholder-gray-400"
             />
+
             <button
               type="submit"
               className="bg-red-500 hover:bg-red-600 text-white font-semibold px-6 py-3 rounded shadow"
@@ -63,9 +68,7 @@ const ContactUs = () => {
         <div className="relative rounded-lg shadow-lg overflow-hidden">
           <div
             className="absolute inset-0 bg-cover bg-center"
-            style={{
-              backgroundImage: `url(${img})`,
-            }}
+            style={{ backgroundImage: `url(${img})` }}
           >
             <div className="absolute inset-0 bg-black opacity-70"></div>
           </div>
@@ -75,6 +78,8 @@ const ContactUs = () => {
             <p className="mb-6">Need any consultations? Contact with us</p>
 
             <div className="space-y-4">
+
+              {/* Email */}
               <div>
                 <h4 className="font-semibold">Email Address</h4>
                 <a
@@ -84,24 +89,45 @@ const ContactUs = () => {
                   logistiqxpress.inc@gmail.com
                 </a>
               </div>
+
+              {/* Phone */}
               <div>
                 <h4 className="font-semibold">Phone Number</h4>
                 <a href="tel:+18887555706" className="text-sm hover:underline">
                   +1 888-755-5706
                 </a>
               </div>
+
+              {/* Locations */}
               <div>
                 <h4 className="font-semibold">Location</h4>
+
+                {/* Slave Lake */}
                 <a
-                  href="https://www.google.com/maps/search/?api=1&query=Slave+Lake,+Alberta,+Canada"
+                  href="https://www.google.com/maps/search/?api=1&query=%23209%2C+215+Main+St+NE%2C+Slave+Lake%2C+AB+T0G0B9"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-sm hover:underline"
-                >
-                  Slave Lake,Canada<br></br>
+                > 📍{" "}
+                  #209, 215 Main St. NE <br />
+                  Slave Lake, AB T0G 0B9
+                </a>
+
+                <br /><br />
+
+                {/* Calgary */}
+                <a
+                  href="https://www.google.com/maps/search/?api=1&query=Unit+13-G%2C+2115+27th+Ave+NE%2C+Calgary%2C+AB+T2E7E4"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm hover:underline"
+                >📍{" "}
+                  Unit 13-G, 2115 27th Ave NE <br />
+                   T2E 7E4
                 </a>
               </div>
 
+              {/* Social Icons */}
               <div className="flex space-x-4 pt-4">
                 <a
                   href="https://www.facebook.com/profile.php?id=61579332661327"
@@ -109,19 +135,24 @@ const ContactUs = () => {
                 >
                   <i className="fab fa-facebook-f"></i>
                 </a>
+
                 <a href="#" className="text-white hover:text-gray-300">
                   <i className="fab fa-twitter"></i>
                 </a>
+
                 <a href="#" className="text-white hover:text-gray-300">
                   <i className="fab fa-youtube"></i>
                 </a>
+
                 <a href="#" className="text-white hover:text-gray-300">
                   <i className="fab fa-linkedin-in"></i>
                 </a>
               </div>
+
             </div>
           </div>
         </div>
+
       </div>
     </section>
   );

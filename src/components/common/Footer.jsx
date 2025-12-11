@@ -107,14 +107,24 @@ const Footer = () => {
           <p className="text-sm text-gray-700 mb-2">
             📍{" "}
             <a
-              href="https://www.google.com/maps?q=8500-84+Street+SE,+Calgary,+AB"
+              href="https://www.google.com/maps?q=#209,+215,+Main+St+NE,+Slave+Lake,+AB+T0G0B9"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-red-500"
             >
-              
-             Slave Lake ,Canada <br></br>
-              
+              #209, 215, Main St. NE Slave Lake, AB T0G 0B9
+            </a>
+          </p>
+
+          <p className="text-sm text-gray-700 mb-2">
+            📍{" "}
+            <a
+              href="https://www.google.com/maps?q=Unit+13-G,+2115+27th+Ave+NE,+Calgary,+AB+T2E7E4"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-red-500"
+            >
+              Unit 13-G, 2115 27th Ave NE  T2E 7E4
             </a>
           </p>
 
