@@ -5,7 +5,6 @@ const ContactUs = () => {
   return (
     <section className="bg-black py-10 sm:py-16" id="contact">
       <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-12">
-
         {/* Left Form Section */}
         <div>
           <h3 className="text-sm text-red-500 font-semibold uppercase mb-1">
@@ -78,7 +77,6 @@ const ContactUs = () => {
             <p className="mb-6">Need any consultations? Contact with us</p>
 
             <div className="space-y-4">
-
               {/* Email */}
               <div>
                 <h4 className="font-semibold">Email Address</h4>
@@ -108,22 +106,24 @@ const ContactUs = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-sm hover:underline"
-                > 📍{" "}
-                  #209, 215 Main St. NE <br />
+                >
+                  {" "}
+                  📍 #209, 215 Main St. NE <br />
                   Slave Lake, AB T0G 0B9
                 </a>
 
-                <br /><br />
+                <br />
+                <br />
 
                 {/* Calgary */}
                 <a
-                  href="https://www.google.com/maps/search/?api=1&query=Unit+13-G%2C+2115+27th+Ave+NE%2C+Calgary%2C+AB+T2E7E4"
+                  href="https://www.google.com/maps/search/?api=1&query=8500+84+ST+SE%2C+Calgary%2C+AB+T3S+0A1"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-sm hover:underline"
-                >📍{" "}
-                  Unit 13-G, 2115 27th Ave NE <br />
-                   T2E 7E4
+                >
+                  📍 8500 84 ST SE 
+                  Calgary, AB T3S 0A1
                 </a>
               </div>
 
@@ -148,11 +148,9 @@ const ContactUs = () => {
                   <i className="fab fa-linkedin-in"></i>
                 </a>
               </div>
-
             </div>
           </div>
         </div>
-
       </div>
     </section>
   );

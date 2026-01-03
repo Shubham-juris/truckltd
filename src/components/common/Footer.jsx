@@ -119,12 +119,13 @@ const Footer = () => {
           <p className="text-sm text-gray-700 mb-2">
             📍{" "}
             <a
-              href="https://www.google.com/maps?q=Unit+13-G,+2115+27th+Ave+NE,+Calgary,+AB+T2E7E4"
+              href="https://www.google.com/maps/search/?api=1&query=8500+84+ST+SE%2C+Calgary%2C+AB+T3S+0A1"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-red-500"
+              className="text-sm hover:underline"
             >
-              Unit 13-G, 2115 27th Ave NE  T2E 7E4
+               8500 84 ST SE
+              Calgary, AB T3S 0A1
             </a>
           </p>
 
