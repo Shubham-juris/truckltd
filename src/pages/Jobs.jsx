@@ -77,7 +77,7 @@ const Jobs = () => {
 
                <h3 className="font-semibold text-lg">Qualifications</h3>
                 <ul className="list-disc list-inside mb-4 text-gray-700">
-                  {job.id === "1" ? (
+                  {job.id === "1" && "2" ? (
                     <li>Senior Secondary education required</li>
                   ) : (
                     <li>Bachelor's degree (preferred)</li>
