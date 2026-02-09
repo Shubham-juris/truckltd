@@ -31,6 +31,10 @@ const Jobs = () => {
   return (
     <section className="p-8 max-w-7xl mx-auto">
       <h1 className="text-center text-2xl font-bold mb-6">WE ARE HIRING!</h1>
+      <p className="text-center text-gray-600 mb-10 max-w-3xl mx-auto">
+  Below are our currently open job positions. We regularly update this page,
+  so please check back often for future career opportunities with us.
+</p>
 
       {/* 🔍 Search Bar */}
       <div className="flex justify-center mb-10">
@@ -71,12 +75,17 @@ const Jobs = () => {
                 <h3 className="font-semibold text-lg">Full Job Description</h3>
                 <p className="mb-4">{job.description}</p>
 
-                <h3 className="font-semibold text-lg">Qualifications</h3>
+               <h3 className="font-semibold text-lg">Qualifications</h3>
                 <ul className="list-disc list-inside mb-4 text-gray-700">
-                  <li>Bachelor's degree (preferred)</li>
+                  {job.id === "1" ? (
+                    <li>Senior Secondary education required</li>
+                  ) : (
+                    <li>Bachelor's degree (preferred)</li>
+                  )}
                   <li>3–5 years of experience</li>
                   <li>Strong communication and leadership skills</li>
                 </ul>
+
 
                 <h3 className="font-semibold text-lg">Responsibilities</h3>
                 <ul className="list-disc list-inside mb-4 text-gray-700">
