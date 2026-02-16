@@ -1,7 +1,7 @@
 import React from "react";
-import heroTruck from "../../assets/Home/truck3.jpeg"; 
-import truckPark from "../../assets/service/img1.jpeg"; 
-import truckWheel from "../../assets/service/img2.jpeg";
+import heroTruck from "../../assets/Home/img3.jpeg"; 
+import truckPark from "../../assets/Home/img6.jpeg"; 
+import truckWheel from "../../assets/Home/img2.jpeg";
 
 const ServiceHero = () => {
   return (

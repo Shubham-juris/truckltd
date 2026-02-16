@@ -1,5 +1,5 @@
 import React from "react";
-import bgTruckImage from "../../assets/about/home.jpg";
+import bgTruckImage from "../../assets/home/img9.jpeg";
 
 const AboutHero = () => {
   return (
