@@ -3,6 +3,7 @@ import AboutSection from "../../components/AboutComponent/AboutSection";
 import AboutHero from "../../components/AboutComponent/AboutHero";
 import CargoSteps from "../../components/AboutComponent/CargoSteps";
 import Companyvalue from "../../components/AboutComponent/Companyvalue";
+import GallerySection from "../../components/AboutComponent/GallerySection";
 
 const AboutPage = () => {
   return (
@@ -11,6 +12,7 @@ const AboutPage = () => {
       <AboutSection />
       <CargoSteps/>
       <Companyvalue/>
+      <GallerySection />
     </>
   );
 };
