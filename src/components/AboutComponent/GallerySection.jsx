@@ -4,12 +4,12 @@ import { motion } from "framer-motion";
 // Import images from assets
 import img1 from "../../assets/about/img1.jpeg";
 import img2 from "../../assets/about/img2.jpeg";
-import img3 from "../../assets/about/img3.jpeg";
+//import img3 from "../../assets/about/img3.jpeg";
 import img4 from "../../assets/about/img4.jpeg";
 import img5 from "../../assets/about/img5.jpeg";
 import img6 from "../../assets/about/img6.jpeg";
 
-const images = [img1, img2, img3, img4, img5, img6];
+const images = [img1, img2, img4, img5, img6];
 
 const GallerySection = () => {
   return (
