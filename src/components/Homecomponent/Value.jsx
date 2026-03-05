@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { usedata } from '../../context/Context';
 
-const Companyvalue = () => {
+const Value = () => {
   const { name, image } = usedata();
 
   const containerVariants = {
@@ -51,7 +51,7 @@ const Companyvalue = () => {
 
   return (
     <motion.div
-      className="bg-white py-14 sm:py-16 md:py-20"
+      className="bg-black py-14 sm:py-16 md:py-20"
       variants={containerVariants}
       initial="hidden"
       whileInView="visible"
@@ -62,7 +62,7 @@ const Companyvalue = () => {
         {/* Left Side */}
         <div>
           <motion.h2
-            className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4"
+            className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-4"
             variants={headingVariants}
           >
             OUR CORE VALUES
@@ -74,10 +74,10 @@ const Companyvalue = () => {
           ></motion.div>
 
           <motion.p
-            className="text-gray-700 text-base sm:text-lg md:text-xl leading-relaxed"
+            className="text-gray-300 text-base sm:text-lg md:text-xl leading-relaxed"
             variants={leftTextVariants}
           >
-            At <span className="text-red-600 font-semibold">Logistiq Xpress</span>, our core values guide every delivery we make.  
+            At <span className="text-red-500 font-semibold">Logistiq Xpress</span>, our core values guide every delivery we make.  
             We prioritize <strong>safety, reliability, and efficiency</strong> across all logistics operations.  
             From local shipments to international freight, we combine precision, speed, and integrity to ensure your cargo is always in trusted hands.
           </motion.p>
@@ -86,16 +86,17 @@ const Companyvalue = () => {
         {/* Right Side */}
         <div>
           <motion.p
-            className="text-gray-700 text-base sm:text-lg md:text-xl leading-relaxed"
+            className="text-gray-300 text-base sm:text-lg md:text-xl leading-relaxed"
             variants={rightTextVariants}
           >
             Our mission is to redefine logistics by leveraging advanced technology, streamlined processes, and a skilled team.  
             We focus on <strong>timely deliveries, transparent tracking, and personalized service</strong> to exceed expectations and keep your business moving forward seamlessly.
           </motion.p>
         </div>
+
       </div>
     </motion.div>
   );
 };
 
-export default Companyvalue;
+export default Value;

@@ -13,7 +13,7 @@ const images = [img1, img2, img3, img4, img5, img6];
 
 const GallerySection = () => {
   return (
-    <section className="bg-gray-100 py-16">
+    <section className="bg-black/90 py-16">
       <div className="container mx-auto px-6">
 
         {/* Heading */}
@@ -24,13 +24,13 @@ const GallerySection = () => {
           viewport={{ once: true }}
           className="text-center mb-12"
         >
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
+          <h2 className="text-3xl md:text-4xl font-bold text-white">
             OUR GALLERY
           </h2>
 
           <div className="w-16 h-1 bg-red-600 mx-auto mt-4"></div>
 
-          <p className="text-gray-600 mt-6 max-w-2xl mx-auto">
+          <p className="text-gray-300 mt-6 max-w-2xl mx-auto">
             Explore our logistics operations, global shipping processes,
             and the dedicated team working behind every successful delivery.
           </p>

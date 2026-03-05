@@ -4,6 +4,7 @@ import Servicecontent from "../../components/Homecomponent/Servicecontent";
 // import StatsSection from "../../components/Homecomponent/StateSection";
 import ChooseUs from "../../components/Homecomponent/ChooseUs";
 import Companyvalue from "../../components/AboutComponent/Companyvalue";
+import Value from "../../components/Homecomponent/Value";
 
 const Homepage = () => {
   return (
@@ -11,8 +12,7 @@ const Homepage = () => {
       <HomeSection />
       <Servicecontent />
       <ChooseUs />
-      {/* <StatsSection /> */}
-      <Companyvalue />
+      <Value/>
     </>
   );
 };
