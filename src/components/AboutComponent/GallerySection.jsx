@@ -149,4 +149,4 @@ const GallerySection = () => {
   );
 };
 
-export default GallerySection;
+export default GallerySection; 
