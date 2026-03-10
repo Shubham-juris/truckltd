@@ -74,38 +74,23 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-import img1 from "../../assets/about/img1.jpeg";
-import img2 from "../../assets/about/img2.jpeg";
-import img4 from "../../assets/about/img4.jpeg";
-import img5 from "../../assets/about/img5.jpeg";
-import img6 from "../../assets/about/img6.jpeg";
-import img7 from "../../assets/about/img7.jpeg";
-import img8 from "../../assets/about/img8.jpeg";
-import img9 from "../../assets/about/img9.jpeg";
-import img10 from "../../assets/about/img10.jpeg";
-import img11 from "../../assets/about/img11.jpeg";
-import img12 from "../../assets/about/img12.jpeg";
-import img13 from "../../assets/about/img13.jpeg";
-import img14 from "../../assets/about/img14.jpeg";
-import img15 from "../../assets/about/img15.jpeg";
-import img16 from "../../assets/about/img16.jpeg";
+import img17 from "../../assets/about/img17.jpeg";
+import img18 from "../../assets/about/img18.jpeg";
+import img19 from "../../assets/about/img19.jpeg";
+import img20 from "../../assets/about/img20.jpeg";
+import img21 from "../../assets/about/img21.jpeg";
+import img22 from "../../assets/about/img22.jpeg";
+import img23 from "../../assets/about/img23.jpeg";
+
 
 const images = [
-  img1,
-  img2,
-  img4,
-  img5,
-  img6,
-  img7,
-  img8,
-  img9,
-  img10,
-  img11,
-  img12,
-  img13,
-  img14,
-  img15,
-  img16,
+  img17,
+  img18,
+  img19,
+  img20,
+  img21,
+  img22,
+  img23,
 ];
 
 const GallerySection = () => {
