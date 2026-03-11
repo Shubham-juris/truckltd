@@ -66,7 +66,7 @@ const Jobs = () => {
                 <ul className="list-disc list-inside mb-4 text-gray-700">
                   <li>Job type: {job.type || job.job_type}</li>
                   <li>Location: {job.location}</li>
-                  <li>Pay: {job.salary || "$37.00 per hour"}</li>
+                  <li>Pay: {job.salary || "$36.00 per hour"}</li>
                   <li>Hours: {job.hours || "40 per week"}</li>
                   {/* 🟢 Added Benefits line */}
                   {job.benefits && <li>Benefits: {job.benefits}</li>}
@@ -82,7 +82,7 @@ const Jobs = () => {
                   ) : (
                     <li>Bachelor's degree (preferred)</li>
                   )}
-                  <li>3–5 years of experience</li>
+                  {/* <li>3–5 years of experience</li> */}
                   <li>Strong communication and leadership skills</li>
                 </ul>
 
