@@ -75,7 +75,7 @@ import React from "react";
 import { motion } from "framer-motion";
 
 import img17 from "../../assets/about/img17.jpeg";
-import img18 from "../../assets/about/img18.jpeg";
+// import img18 from "../../assets/about/img18.jpeg";
 import img19 from "../../assets/about/img19.jpeg";
 import img20 from "../../assets/about/img20.jpeg";
 import img21 from "../../assets/about/img21.jpeg";
@@ -85,7 +85,6 @@ import img23 from "../../assets/about/img23.jpeg";
 
 const images = [
   img17,
-  img18,
   img19,
   img20,
   img21,
