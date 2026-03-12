@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import { FaFacebookF, FaInstagram } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 import logo from "../../assets/navbar/logo1.jpeg";
 
 const Footer = () => {
@@ -146,25 +147,34 @@ const Footer = () => {
           </p>
 
           {/* Social Icons */}
-          <div className="flex gap-3 mt-2">
-            <a
-              href="https://www.facebook.com/profile.php?id=61579332661327"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="p-2 bg-blue-500 text-white rounded-full hover:bg-blue-700 transition-colors"
-            >
-              <FaFacebookF size={16} />
-            </a>
-
-            <a
-              href="https://www.instagram.com/logistiqxpress/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="p-2 bg-red-500 text-white rounded-full hover:bg-red-700 transition-colors"
-            >
-              <FaInstagram size={16} />
-            </a>
-          </div>
+             <div className="flex gap-3 mt-2">
+              <a
+                href="https://www.facebook.com/LogistiqXpress/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-2 bg-blue-500 text-white rounded-full hover:bg-blue-700 transition-colors"
+              >
+                <FaFacebookF size={16} />
+              </a>
+            
+              <a
+                href="https://www.instagram.com/logistiq1155/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-2 bg-red-500 text-white rounded-full hover:bg-red-700 transition-colors"
+              >
+                <FaInstagram size={16} />
+              </a>
+            
+              <a
+                href="https://x.com/logistiq_xpress"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-2 bg-black text-white rounded-full hover:bg-gray-800 transition-colors"
+              >
+                <FaXTwitter size={16} />
+              </a>
+            </div>
         </div>
       </div>
 
