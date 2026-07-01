@@ -74,22 +74,36 @@
 import React from "react";
 import { motion } from "framer-motion";
 
+import t1 from "../../assets/about/t1.png";
 import img17 from "../../assets/about/img17.jpeg";
+import t2 from "../../assets/about/t2.png";
 // import img18 from "../../assets/about/img18.jpeg";
 import img19 from "../../assets/about/img19.jpeg";
+import t3 from "../../assets/about/t3.png";
 import img20 from "../../assets/about/img20.jpeg";
+import t4 from "../../assets/about/t4.png";
 import img21 from "../../assets/about/img21.jpeg";
+import t5 from "../../assets/about/t5.png";
 import img22 from "../../assets/about/img22.jpeg";
+import t6 from "../../assets/about/t6.png";
 import img23 from "../../assets/about/img23.jpeg";
+import t7 from "../../assets/about/t7.png";
 
 
 const images = [
+  t1,
   img17,
+  t2,
   img19,
+  t3,
   img20,
+  t4,
   img21,
+  t5,
   img22,
+  t6,
   img23,
+  t7
 ];
 
 const GallerySection = () => {
